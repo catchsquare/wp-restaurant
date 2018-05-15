@@ -132,3 +132,6 @@ The logo placement is a bit tricky. We recommend to use at max 275 x 275 px logo
 
 = 1.0.13 - 13 May 2018 =
 * Remove unused post format support
+
+= 1.0.14 - 15 May 2018 =
+* Added Theme URI and Author URI
