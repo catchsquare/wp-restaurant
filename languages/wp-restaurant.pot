@@ -1,0 +1,661 @@
+# Copyright (C) 2018 Catchsquarethemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Restaurant 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/wp-restaurant\n"
+"POT-Creation-Date: 2018-04-08 15:36+0545\n"
+"PO-Revision-Date:2018-04-08 15:36+0545\n"
+"Last-Translator: catchsquare <wearecatchsquare@gmail.com>\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: functions.php:108
+msgid " Read More &raquo"
+msgstr ""
+
+#. 1: date
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:128
+#, php-format
+msgid "&copy; %d. All Right Reserved."
+msgstr ""
+
+#: inc/hooks/footer.php:65
+msgid "&copy; All Right Reserved."
+msgstr ""
+
+#: inc/customizer/customize-controls/customize-category-control.php:52
+#: inc/customizer/customize-controls/customize-menus-control.php:59
+#: inc/customizer/customize-controls/customize-posts-control.php:57
+#: inc/customizer/customize-controls/customize-post_types-control.php:58
+#: inc/customizer/customize-controls/customize-tags-control.php:55
+#: inc/customizer/customize-controls/customize-users-control.php:58
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:59 inc/template-tags.php:66
+msgid ", "
+msgstr ""
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#. 1: url, 2: read more label
+#: functions.php:108
+#, php-format
+msgid "<a href=\"%1$s\" class=\"read-more-link\">%2$s;</a>"
+msgstr ""
+
+#: inc/register/register-sidebars.php:20
+msgid "Add widgets here."
+msgstr ""
+
+#. 1: break tag
+#: functions.php:194
+#, php-format
+msgid ""
+"All Section are based on pages. Enable each Section from Customizer:%s for "
+"Banner: Home Template->Banner->Show Banner Image. likewise to other sections"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:24
+msgid "Banner"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:36
+msgid "Banner Image"
+msgstr ""
+
+#: inc/hooks/homepage-banner.php:35 inc/hooks/homepage-main-content.php:21
+msgid "Book a Reservation"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#. Author of the theme
+msgid "catchsquare"
+msgstr ""
+
+#. 1: url, 2: label
+#: inc/hooks/footer.php:75
+msgid "Catchsquare Themes"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:50
+msgid "Choose Contact Page"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:97
+msgid "Choose Content"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:66
+msgid "Choose Reservation Page"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:110
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: comments.php:59 comments.php:80
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: post title
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/customizer/customizer-fields/contact-settings/contact-options.php:31
+msgid "Contact Address"
+msgstr ""
+
+#: inc/customizer/customizer-fields/contact-settings/contact-options.php:18
+msgid "Contact Information"
+msgstr ""
+
+#. 1: break tag
+#: inc/hooks/homepage-contact.php:30
+#, php-format
+msgid ""
+"Contact information are empty. You need to add your contact information %s "
+"Customizer->Contact Information"
+msgstr ""
+
+#: inc/customizer/customizer-framework.php:102
+msgid ""
+"Contact information are empty. You need to add your contact information <br "
+"/> Customizer->Contact Information"
+msgstr ""
+
+#: inc/customizer/customizer-fields/contact-settings/contact-options.php:40
+msgid "Contact Number"
+msgstr ""
+
+#. Name of the template
+msgid "Contact page"
+msgstr ""
+
+#: inc/hooks/homepage-banner.php:34
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:61
+msgid "Contact Us"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:57
+msgid "Contact Us Link Label"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:45
+msgid "Contact/Reservation Settings"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:104
+msgid "Content Length"
+msgstr ""
+
+#. %s: Name of current post.
+#: template-parts/content.php:57
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:760 inc/breadcrumbs/breadcrumbs.php:1184
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#. 1: label
+#: inc/hooks/footer.php:80
+msgid "Designed & Developed by:"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/template-tags.php:83 template-parts/content-page.php:64
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/customizer/customizer-fields/contact-settings/contact-options.php:49
+msgid "Email"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:139
+msgid "Featured Image Alignment"
+msgstr ""
+
+#: inc/customizer/customizer-framework.php:98 inc/hooks/homepage-contact.php:43
+msgid "Find Us"
+msgstr ""
+
+#: inc/register/register-sidebars.php:32
+msgid "Footer 1"
+msgstr ""
+
+#: inc/register/register-sidebars.php:42
+msgid "Footer 2"
+msgstr ""
+
+#: inc/register/register-sidebars.php:52
+msgid "Footer 3"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:123
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/register/register-sidebars.php:34
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: inc/register/register-sidebars.php:44
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: inc/register/register-sidebars.php:54
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:77
+msgid "For single post's featured image position"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:93
+msgid "For single posts"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:54
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:86
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:69
+msgid "Generic Image"
+msgstr ""
+
+#: functions.php:196
+msgid "Goto Customizer"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:135
+msgid "Here"
+msgstr ""
+
+#: functions.php:125 functions.php:148 inc/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:84
+msgid "Home Content"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:17
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:131
+msgid "Home Template"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://catchsquare.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://catchsquarethemes.com/"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:76
+msgid "Image Position"
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/tgm/tgm.php:18
+msgid "Jetpack"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:23
+msgid "Layout Options"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:76
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:62
+msgid "Left"
+msgstr ""
+
+#: inc/register/menus.php:18
+msgid "Left Menu"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:84
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:101
+msgid "Left Side"
+msgstr ""
+
+#: functions.php:128 functions.php:151
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:138
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:193
+msgid "Menu Background Image"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:180
+msgid "Menu Banner"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:202
+msgid "Menu Banner Head Title"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:220
+msgid "Menu Banner Link Label"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:211
+msgid "Menu Banner Main Title"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:152
+msgid "Menu Main Title"
+msgstr ""
+
+#. Name of the template
+msgid "Menu Page"
+msgstr ""
+
+#: inc/hooks/homepage-menu-items.php:47
+msgid ""
+"Menu section is empty. Add some Menu items first, to view the detail design"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:160
+msgid "Menu Sub Title"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:759 inc/breadcrumbs/breadcrumbs.php:815
+#: inc/breadcrumbs/breadcrumbs.php:1180
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: comments.php:63 comments.php:84
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:66
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:83
+msgid "No Image"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:99
+msgid "No sidebar"
+msgstr ""
+
+#. 1: date
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:115
+msgid "None"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:107
+msgid "Number of Footer Sidebar"
+msgstr ""
+
+#: comments.php:62 comments.php:83
+msgid "Older Comments"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:116
+msgid "One"
+msgstr ""
+
+#: inc/customizer/customizer-fields/contact-settings/contact-options.php:58
+msgid "Opening Time"
+msgstr ""
+
+#: inc/hooks/homepage-menu-banner.php:29
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:215
+msgid "Our Restaurant And the Food They Serve their Guests"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumbs/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: 404.php:18
+msgid "Page Not Found"
+msgstr ""
+
+#: template-parts/content-menu.php:26 template-parts/content-page.php:52
+#: template-parts/content.php:65
+msgid "Pages:"
+msgstr ""
+
+#. 1: author
+#: inc/template-tags.php:38
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. 1: date
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: categories
+#: inc/template-tags.php:62
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/hooks/homepage-menu-banner.php:28
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:206
+msgid "Prepare the best dishes"
+msgstr ""
+
+#. 1: url
+#: template-parts/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:73
+msgid "Reservation Link Label"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:77
+msgid "Reserve Now"
+msgstr ""
+
+#: inc/register/menus.php:19
+msgid "Righ Menu"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:58
+msgid "Right "
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:85
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:100
+msgid "Right Side"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: inc/breadcrumbs/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. 1: search title
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:29
+msgid "Show Banner Image"
+msgstr ""
+
+#: inc/customizer/customizer-fields/contact-settings/contact-options.php:24
+msgid "Show Contact In Front page"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:90
+msgid "Show Home Page Content"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:186
+msgid "Show menu banner section in frontpage"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:145
+msgid "Show menu section in frontpage"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:47
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:37
+msgid "Show Title"
+msgstr ""
+
+#: inc/register/register-sidebars.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:92
+msgid "Sidebar Setting"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:20
+msgid "Site Identity"
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. 1: tags
+#: inc/template-tags.php:69
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:62
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:118
+msgid "Three"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:117
+msgid "Two"
+msgstr ""
+
+#: inc/customizer/customizer-framework.php:317
+msgid "Untited"
+msgstr ""
+
+#: inc/customizer/customizer-framework.php:150
+msgid "Untitled Panel"
+msgstr ""
+
+#: inc/customizer/customizer-framework.php:176
+msgid "Untitled Section"
+msgstr ""
+
+#: inc/hooks/homepage-menu-banner.php:30 inc/hooks/homepage-menu-items.php:28
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:224
+msgid "View More"
+msgstr ""
+
+#: inc/customizer/customizer-fields/homepage-settings/homepage-options.php:168
+msgid "View More Text Label"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:27
+msgid "Welcome Text"
+msgstr ""
+
+#: inc/hooks/homepage-banner.php:23
+#: inc/customizer/customizer-fields/generic-page-settings/generic-page-options.php:33
+msgid "Welcome To"
+msgstr ""
+
+#. Name of the theme
+msgid "WP Restaurant"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"WP Restaurant Theme is a clean and professional restaurant WordPress Theme "
+"perfect for Restaurant, Cafe, Coffee house or any food business."
+msgstr ""
+
+#. 1: WordPress version
+#: inc/backward-compact.php:47 inc/backward-compact.php:64
+#: inc/backward-compact.php:83
+#, php-format
+msgid ""
+"WP Restaurant Theme requires at least WordPress version 4.7. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/breadcrumbs/breadcrumbs.php:758 inc/breadcrumbs/breadcrumbs.php:787
+#: inc/breadcrumbs/breadcrumbs.php:814 inc/breadcrumbs/breadcrumbs.php:841
+#: inc/breadcrumbs/breadcrumbs.php:1176
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/post-meta/layout-meta.php:135
+msgid "You can set up the sidebar content"
+msgstr ""
