@@ -9,13 +9,13 @@ Requires at least: 4.6
 Tested up to: 4.9 
 Stable tag: 1.0  
 License URI: http://www.gnu.org/licenses/gpl-2.0.htmlPublic License v2 or later
-Tags: Custom-Background, Custom-Logo, Custom-Menu, Featured-Images, Footer Widgets, Left-Sidebar, No-Sidebar, Right-Sidebar, Threaded-Comments, Translation-Ready,  
+Tags: Custom-Background, Custom-Logo, Custom-Menu, Featured-Images, Footer Widgets, Left-Sidebar, No-Sidebar, Right-Sidebar, Threaded-Comments, Translation-Ready
 
 ## Description
 
 WP Restaurant Theme is a clean, responsive and professional restaurant WordPress Theme perfect for Restaurant, Cafe, Coffee house or any food business.
 Theme supports Food Menu by Jetpack which you can showcase in your site easily. It has Theme Options panel based on powerful Customizer API which makes theme pretty easy to customize and configure.
-It is a resposive, cross-browser compatible, SEO friendly theme for all restaurant business which are in need of a theme to start with.
+It is a responsive, cross-browser compatible, SEO friendly theme for all restaurant business which are in need of a theme to start with.
 
 ## Installation
 
@@ -34,46 +34,64 @@ WP Restaurant WordPress Theme, Copyright 2018 Catch Square Themes. This theme is
 2. Add a plugin called Jetpack (as recommended by the theme) for menu items.
 
 3. After activating Jetpack, user will see a new menu in the left hand side of the dashboard named as "Food Menus"
-a. Add menu items from Food Menus. You can 
-b. Add menu categories from Menu Sections under Food Menus
-c. Add Menu Item Labels to label your food menu such as sweet, spicy, vegetarian food etc.
+
+	a. Add menu items from Food Menus. You can 
+	
+	b. Add menu categories from Menu Sections under Food Menus
+	
+	c. Add Menu Item Labels to label your food menu such as sweet, spicy, vegetarian food etc.
 
 4. Create Pages from Add New button under Pages menu:
-a. Front Page
-Here you can add your content for your home page. You don't need to alter Template as it is already in default template. You can set featured image to display it aside your content in front page.
-go to Settings > Reading and choose this page as Homepage.
+	a. Front Page
+	
+		Here you can add your content for your home page. You don't need to alter Template as it is already in default template. You can set featured image to display it aside your content in front page.
+		go to Settings > Reading and choose this page as Homepage.
 
-b. Menu Listing Page
-Create a new page and name it as it suits you. Assign this page as Menu Page from the dropdown in the right hand side under Template.
+	b. Menu Listing Page
+	
+		Create a new page and name it as it suits you. Assign this page as Menu Page from the dropdown in the right hand side under Template.
 
-c. Blog Page
-Create a blog page. Publish it and now go to Settings > Reading and choose Blog for Posts Page and Front Page for Homepage.
-Click Save Changes.
+	c. Blog Page
+	
+		Create a blog page. Publish it and now go to Settings > Reading and choose Blog for Posts Page and Front Page for Homepage.
+		Click Save Changes.
 
 5. Using Customizer for WP Restaurant:
-a. Click on Appearance > Customize
-b. Creating Menu:
-Click on Menus > Create New Menu > Write Menu Name > Check box Left Menu or Right Menu > Click Next > Add Items > Choose all the menus you want to be placed in left side of header
-Similarly do it for right side menu.
 
-c. Site Identity
-You can upload your logo from here.
-Welcome text, site title and Tagline will be shown on the banner image.
+	a. Click on Appearance > Customize
+	
+	b. Creating Menu:
+	
+		Click on Menus > Create New Menu > Write Menu Name > Check box Left Menu or Right Menu > Click Next > Add Items > Choose all the menus you want to be placed in left side of header
+		Similarly do it for right side menu.
 
-d. Widgets
-WP Restaurant supports at max 3 footer widgets. You can choose widgets for footer from here.
+	c. Site Identity
+	
+		You can upload your logo from here.
+		Welcome text, site title and Tagline will be shown on the banner image.
 
-e. Homepage Template
-You can control your frontend from here.
-i. Click on Banner and check Show Banner Image box. Choose the image you want to show as banner in homepage. You can also set Call to Action button in Contact Us Link Label and Reservation Link Label.
-ii. Click on Home Content and check Show Home Page Content box. Dropdown and select Front Page to show front page content. Content Length box allows you to show exactly how many characters to be shown in the home page.
-iii. Click on Menu and check Show menu section in frontpage box. Menu Main Title and Menu Sub Title can be handled from here and is displayed on the red box where food menus are shown. View more text label is shown in the right hand top side of the same section which will take user to menu listing page.
-iv. Click on Menu Banner and check Show menu banner section in frontpage box. Select Image and fill the empty fields as per requirement which is displayed in the frontend.
+	d. Widgets
+		
+		WP Restaurant supports at max 3 footer widgets. You can choose widgets for footer from here.
 
-f. Contact Information
-Click on Contact Information and check Show Contact in Front Page and fill up the empty fields which will be displayed in the frontend.
+	e. Homepage Template
+	
+		You can control your frontend from here.
+		
+		i. Click on Banner and check Show Banner Image box. Choose the image you want to show as banner in homepage. You can also set Call to Action button in Contact Us Link Label and Reservation Link Label.
+		
+		ii. Click on Home Content and check Show Home Page Content box. Dropdown and select Front Page to show front page content. Content Length box allows you to show exactly how many characters to be shown in the home page.
+		
+		iii. Click on Menu and check Show menu section in frontpage box. Menu Main Title and Menu Sub Title can be handled from here and is displayed on the red box where food menus are shown. View more text label is shown in the right hand top side of the same section which will take user to menu listing page.
+		
+		iv. Click on Menu Banner and check Show menu banner section in frontpage box. Select Image and fill the empty fields as per requirement which is displayed in the frontend.
+		
 
-At last, publish it and all of the new changes shall be seen in the frontend.
+	f. Contact Information
+	
+		Click on Contact Information and check Show Contact in Front Page and fill up the empty fields which will be displayed in the frontend.
+
+	At last, publish it and all of the new changes shall be seen in the frontend.
 
 
 ## Credits 
