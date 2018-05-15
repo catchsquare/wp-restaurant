@@ -27,6 +27,9 @@ It is a responsive, cross-browser compatible, SEO friendly theme for all restaur
 
 WP Restaurant WordPress Theme, Copyright 2018 Catch Square Themes. This theme is distributed under the terms of the GNU GPL
 
+## Demo URL
+http://demo.catchsquarethemes.com/wordpress-themes/?theme=wp-restaurant
+
 ## Documentation of WP Restaurant Theme
 
 1. After activating WP Restaurant Theme, user will need to follow these steps to make this theme work smoothly.
