@@ -2,6 +2,7 @@
 WP Restaurant Theme is a clean, responsive and professional restaurant WordPress Theme perfect for Restaurant, Cafe, Coffee house or any food business.
 
 ## Project detail
+
 Contributors: catchsquare  
 Support: https://github.com/catchsquare/wp-restaurant/issues
 Requires at least: 4.6  
