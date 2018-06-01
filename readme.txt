@@ -1,7 +1,8 @@
 === WP Restaurant ===
 
 Contributors: catchsquare
-Tags: Custom-Background, Custom-Logo, Custom-Menu, Featured-Images, Footer Widgets, Left-Sidebar, No-Sidebar, Right-Sidebar, Threaded-Comments, Translation-Ready, Requires at least: 4.7
+Tags: Custom-Background, Custom-Logo, Custom-Menu, Featured-Images, Footer Widgets, Left-Sidebar, No-Sidebar, Right-Sidebar, Threaded-Comments, Translation-Ready, 
+Requires at least: 4.7
 Tested up to: 4.9
 Stable tag: 1.0
 License: GPLv2 or later
@@ -135,3 +136,6 @@ The logo placement is a bit tricky. We recommend to use at max 275 x 275 px logo
 
 = 1.0.14 - 15 May 2018 =
 * Added Theme URI and Author URI
+
+= 1.0.15 - 01 June 2018 =
+* Change Package name to WP Restaurant

@@ -6,7 +6,7 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  *
- * @since Reef 0.1
+ * @since WP Restaurant 1.0
  */
 
 if ( ! function_exists( 'wp_restaurant_setup' ) ) :
