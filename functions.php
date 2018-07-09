@@ -7,7 +7,7 @@
  * @package Restaurant
  * @since WP Restaurant 1.0
  */
-define( 'WP_RESTAURANT_VER', '1.0' );
+define( 'WP_RESTAURANT_VER', '1.0.16' );
 
 define( 'WP_RESTAURANT_STYLESHEET_URI', get_stylesheet_uri() );
 

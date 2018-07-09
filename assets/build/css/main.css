@@ -64,9 +64,9 @@
     width: 275px;
     z-index: 2;
     -ms-transform: translate(-50%, 0);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(-50%, 0);
- /* Safari */
+    /* Safari */
 }
 
 .steak-house-logo img {
@@ -76,9 +76,9 @@
     transform: translateX(-50%);
     width: 64%;
     -ms-transform: translate(-50%, 0);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(-50%, 0);
- /* Safari */
+    /* Safari */
 }
 
 .steak-house-logo p {
@@ -116,9 +116,9 @@
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     -ms-transform: translate(-50%, 0);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(-50%, 0);
- /* Safari */
+    /* Safari */
 }
 
 .steak-house-navigation span:before {
@@ -346,7 +346,6 @@ h3.steak-house-text-description {
     padding: 15px 0;
 }
 
-
 /* ---------------------------
 # Homepage Content
 --------------------------- */
@@ -445,7 +444,7 @@ h3.steak-house-text-description {
 }
 
 .home-no-menu-items-list {
-              /*CSS for no menu items information warning*/
+    /*CSS for no menu items information warning*/
     display: block;
     font-weight: bold;
     margin: 0 auto;
@@ -556,9 +555,9 @@ h2.main-title {
     transform: translateY(-50%);
     width: 100%;
     -ms-transform: translate(0, -50%);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(0, -50%);
- /* Safari */
+    /* Safari */
 }
 
 /* --------------------
@@ -704,7 +703,6 @@ footer#footer {
     color: #fff;
 }
 
-
 /* --------------------
 Buttons
 --------------------- */
@@ -723,7 +721,6 @@ Buttons
     border-radius: 0;
     padding: 15px;
 }
-
 
 /* Search Result Page */
 
@@ -755,7 +752,8 @@ h1.page-title span {
     margin-bottom: 20px;
 }
 
-.search-page article h2 a, .search-page article .entry-meta a {
+.search-page article h2 a,
+.search-page article .entry-meta a {
     color: #b39673;
 }
 
@@ -763,7 +761,6 @@ h1.page-title span {
     font-style: italic;
     font-size: 12px;
 }
-
 
 /* Read More */
 
@@ -808,6 +805,7 @@ a.read-more-link {
 }
 
 /* Post Design */
+
 .post {
     border-bottom: 3px solid #e1e1e1;
     margin-bottom: 50px !important;
@@ -883,9 +881,9 @@ h2.comments-title span {
     top: 50%;
     transform: translateY(35%);
     -ms-transform: translate(0, 35%);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(0, 35%);
- /* Safari */
+    /* Safari */
 }
 
 .comment-respond {
@@ -981,7 +979,7 @@ h2.comments-title span {
 
 .blog-content figure.image-full {
     max-width: 1200px;
-} 
+}
 
 /* BreadCrumb */
 
@@ -1010,8 +1008,11 @@ h2.comments-title span {
     font-size: 13px;
 }
 
-/* NEW FILE */
+.steak-full-content {
+    width: 100% !important;
+}
 
+/* NEW FILE */
 
 /* ---- Menu Text in Menu Page ---- */
 
@@ -1039,9 +1040,9 @@ h2.comments-title span {
     transform: translateX(-50%);
     width: 10%;
     -ms-transform: translate(-50%, 0);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(-50%, 0);
- /* Safari */
+    /* Safari */
 }
 
 /* ----Menu and Pricing---- */
@@ -1052,7 +1053,8 @@ section.menu-items {
     width: 80%;
 }
 
- /* css for clip path for background image of menu group title */
+/* css for clip path for background image of menu group title */
+
 .menu-page .menu-group-header {
     background-image: url(../images/contact-image.jpg);
     background-position: 50% 50%;
@@ -1063,11 +1065,13 @@ section.menu-items {
 }
 
 /* css for background of menu group */
+
 .menu-page .collection-menu-items {
     background: #eee;
 }
 
 /* css for menu group title such as position, font-size, backgroung color etc */
+
 .menu-page .menu-group-header h2.menu-group-title {
     background: #bda48740;
     color: #fff;
@@ -1079,13 +1083,13 @@ section.menu-items {
     top: 25%;
     transform: translateX(-50%);
     -ms-transform: translate(-50%, 0);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(-50%, 0);
- /* Safari */
+    /* Safari */
 }
 
-
 /* css for line below menu group title like lunch, breakfast, dinner etc */
+
 .menu-page .menu-group-header h2.menu-group-title:after {
     background: #fff;
     content: '';
@@ -1097,17 +1101,16 @@ section.menu-items {
     transform: translateX(-50%);
     width: 100%;
     -ms-transform: translate(-50%, 0);
- /* IE 9 */
+    /* IE 9 */
     -webkit-transform: translate(-50%, 0);
- /* Safari */
+    /* Safari */
 }
 
-
 /* css for menu items image, menu name, price and description */
+
 .menu-page section.menu-items article {
     display: inline-block;
     padding: 15px 25px;
-    vertical-align: top;
     width: calc(50% - 2px);
 }
 
@@ -1116,6 +1119,7 @@ section.menu-items {
 }
 
 /* css for menu food title */
+
 .menu-page .menu-entry-wrapper {
     -webkit-transition: all .7s ease;
     -moz-transition: all .7s ease;
@@ -1160,10 +1164,10 @@ section.menu-items {
     text-transform: capitalize;
 }
 
-
 /* NEW FILE */
 
 /* ---- Background Contact Page---- */
+
 .cs-contact-page {
     background-color: #fff;
 }
@@ -1173,6 +1177,7 @@ section.menu-items {
 }
 
 /* NEW FILE */
+
 /* 404 not found */
 
 .error404 .blog-content {
@@ -1251,36 +1256,32 @@ section.menu-items {
 }
 
 /* NEW FILE */
+
 /* --------------------------------
 # Media Query mobile responsive CSS 1200 px
 -------------------------------- */
 
 @media screen and (max-width: 1200px) {
-	/* logo */
+    /* logo */
     .steak-house-logo {
         height: 220px;
         top: -70px;
         width: 220px;
         z-index: 1;
     }
-
     .steak-house-menu-title-list {
         width: 38%;
     }
-
-	/* Menu Images Homepage */
-
+    /* Menu Images Homepage */
     .home-menu-items-list .collection-menu-items {
         bottom: 35px;
         height: 300px;
         margin: 40px auto;
         position: relative;
     }
-
     .collection-menu-items article:first-child {
         display: none;
     }
-
     .steak-house-full-width .menu-items article {
         width: calc(33.33% - 23px);
     }
@@ -1291,49 +1292,40 @@ section.menu-items {
 -------------------------------- */
 
 @media screen and (max-width: 1024px) {
-	/*header*/
+    /*header*/
     .steak-house-top-nav {
         display: none;
     }
-
     .steak-house-top-head {
         z-index: 2;
     }
-
     .steak-house-navigation {
         display: inline;
         float: none;
     }
-
     .steak-house-logo {
         display: none;
     }
-
     .steak-house-top-nav #menu-left-menu {
         float: none;
         padding: 0;
     }
-
     .steak-house-top-nav #menu-right-menu {
         float: none;
         padding: 0;
     }
-
     .steak-house-container {
         background: transparent;
         margin: 0;
         padding: 0;
         z-index: 2;
     }
-
     .steak-house-container.no-header {
         overflow: inherit
     }
-
     .steak-house-full-width .img-banner {
         height: 50vh;
     }
-
     #cs-resmenu {
         margin: 0 auto;
         width: auto;
@@ -1343,7 +1335,6 @@ section.menu-items {
         -o-transition: all .7s ease;
         transition: all .7s ease;
     }
-
     .cs-col {
         display: inline-block;
         height: auto;
@@ -1351,11 +1342,9 @@ section.menu-items {
         text-align: center;
         width: 100%;
     }
-
     .middle {
         margin: 0 auto;
     }
-
     .bar {
         -webkit-transition: all .7s ease;
         -moz-transition: all .7s ease;
@@ -1363,7 +1352,6 @@ section.menu-items {
         -o-transition: all .7s ease;
         transition: all .7s ease;
     }
-
     .cs-open #cs-resmenu .top {
         background: #fff;
         transform: translateY(15px) rotateZ(45deg);
@@ -1372,7 +1360,6 @@ section.menu-items {
         -ms-transform: translateY(15px) rotateZ(45deg);
         -o-transform: translateY(15px) rotateZ(45deg);
     }
-
     .cs-open #cs-resmenu .bottom {
         background: #fff;
         transform: translateY(-15px) rotateZ(-45deg);
@@ -1381,11 +1368,9 @@ section.menu-items {
         -ms-transform: translateY(-15px) rotateZ(-45deg);
         -o-transform: translateY(-15px) rotateZ(-45deg);
     }
-
     .cs-open #cs-resmenu .middle {
         width: 0;
     }
-
     .bar {
         background: #b39673;
         display: block;
@@ -1393,7 +1378,6 @@ section.menu-items {
         margin: 10px auto;
         width: 50px;
     }
-
     #cs-resmenu {
         display: block;
         float: right;
@@ -1401,7 +1385,6 @@ section.menu-items {
         right: 10px;
         z-index: 2;
     }
-
     #cs-navigation {
         background: #b39673;
         left: 100%;
@@ -1414,93 +1397,75 @@ section.menu-items {
         -o-transition: all .7s ease;
         transition: all .7s ease;
     }
-
     .cs-open #cs-navigation {
         left: 0;
     }
-
     .cs-res-navigation li {
         border-bottom: 1px dashed #fff;
         padding: 10px 0;
     }
-
     .cs-res-navigation li a {
         color: #fff;
     }
-
     #menu-left-menu-1 li:first-child {
         padding-top: 50px;
     }
-
     #menu-right-menu-1 li:last-child {
         border-bottom: 0;
     }
-
     .sub-menu {
         margin: 0;
         padding: 0;
     }
-	
-	/*banner section media query*/
+    /*banner section media query*/
     .steak-house-texts {
         left: 0;
         padding: 0 3%;
         top: 25%;
     }
-
     h3.steak-house-text-description {
         line-height: 1.5;
     }
-
-	/*Content Height*/
+    /*Content Height*/
     #content {
         padding-bottom: 0;
     }
-
-	/*Todays Speciality Cuisine*/
+    /*Todays Speciality Cuisine*/
     .home-menu-items-list {
         margin: 0;
         width: 100%;
     }
-
     a.steak-house-home-view-more,
-	.steak-house-home-view-more {
+    .steak-house-home-view-more {
         border: 1px solid #fff;
         color: #fff;
         right: 5%;
         top: 8%;
         z-index: 3;
     }
-
     .home-menu-items-list .menu-items {
         position: relative;
         top: 0;
     }
-
     .steak-house-menu-title-list {
         float: none;
         height: auto;
         width: 100%;
     }
-
     .steak-house-full-width .menu-items article {
         margin-right: 0;
         width: calc(25% - 3px);
     }
-
     .menu-home-thumbnail {
         width: 100%;
     }
-
-	/*find us, contact, location and reservation button*/
-
+    /*find us, contact, location and reservation button*/
     .steak-house-home-contact img {
         position: relative;
-        transform: translate(0,0);
+        transform: translate(0, 0);
         -ms-transform: translate(0, 0);
         -webkit-transform: translate(0, 0);
     }
-
     .steak-house-home-contact-division {
         left: 0;
         position: relative;
@@ -1509,90 +1474,71 @@ section.menu-items {
         -ms-transform: translate(0, 0);
         -webkit-transform: translate(0, 0);
     }
-
     .steak-house-home-contact .btn-transparent.reservation {
         display: inline-block;
         margin: 40px 0 0 0;
         top: 0px;
     }
-
-	/*footer information*/
+    /*footer information*/
     .footer-wrapper {
         padding: 10px 0;
     }
-
     .footer-wrapper span {
         float: none;
         margin: 0;
     }
-
     .copyright-text {
         display: block;
         text-align: center;
     }
-
     .credit {
         display: block;
         text-align: center;
     }
-
     .footer-wrapper {
         text-align: center;
     }
-
     .foot .container .widget {
         float: none;
         width: 100%;
     }
-	
-	/*Contact Information*/
+    /*Contact Information*/
     .full-width {
         margin: 0;
     }
-
     .find-us {
         width: 100%;
     }
-
     .location,
-	.opening-time {
+    .opening-time {
         margin-top: 40px;
         width: 100%;
     }
-
     .steak-house-home-contact img {
         display: block;
         margin: 0 auto;
     }
-
     .steak-house-home-contact p {
         display: block;
     }
-	
-	/*Prepare the best dishes*/
+    /*Prepare the best dishes*/
     .overlay-banner .title-subtitle .title-sub-section {
         font-size: 30px;
         width: 100%;
     }
-	
-	/*Homepage Content below banner*/
-
+    /*Homepage Content below banner*/
     .steak-house-body-container {
         padding: 20px 0;
         width: 90%;
     }
-
     .steak-house-body-container .title-section {
         text-align: center;
     }
-	
-	/*404 page not found*/
+    /*404 page not found*/
     .not-found-page {
         background-position: 22% 7%;
     }
-
-	/* Blog Post Detail Page Content */
-
+    /* Blog Post Detail Page Content */
     .blog-content {
         width: 90%;
     }
@@ -1603,43 +1549,34 @@ section.menu-items {
 --------------------------------*/
 
 @media screen and (max-width: 960px) {
-
-/*menu page header background image background size changed to cover from contain*/
+    /*menu page header background image background size changed to cover from contain*/
     .menu-background-image {
         background-size: cover;
     }
-
-/* Menu Images Homepage */
-
+    /* Menu Images Homepage */
     .home-menu-items-list .collection-menu-items {
         height: 300px;
         margin: 40px auto;
     }
-
     .collection-menu-items article:first-child {
         display: none;
     }
-
     .steak-house-full-width .menu-items article {
         width: calc(33.33% - 3px);
     }
-
-/* Sidebar float removal */
+    /* Sidebar float removal */
     .blog-content.right-sidebar #primary {
         float: none;
         width: 100%;
     }
-
     .blog-content.right-sidebar #secondary {
         float: none;
         width: 100%;
     }
-
     .blog-content.left-sidebar #primary {
         float: none;
         width: 100%;
     }
-
     .blog-content.left-sidebar #secondary {
         float: none;
         width: 100%;
@@ -1649,80 +1586,65 @@ section.menu-items {
 /*--------------------------------
 # Media Query mobile responsive CSS 768 px
 --------------------------------*/
-@media screen and (max-width: 768px) {
 
+@media screen and (max-width: 768px) {
     section.menu-items {
         width: 100%;
     }
-
-/* Menu Images Homepage */
-
+    /* Menu Images Homepage */
     .home-menu-items-list .collection-menu-items {
         height: auto;
     }
-
     .collection-menu-items article:first-child {
         display: inline-block;
     }
-
     .steak-house-full-width .menu-items article {
         width: calc(50% - 3px);
     }
-
     .menu-page .collection-menu-items {
         margin: 0 auto;
         width: 80%;
     }
-
     .menu-page section.menu-items article {
         border: 2px solid #fff;
         width: 100%;
     }
-
     .not-found-page {
         background-position: 44% 7%;
     }
-
     .not-found-content {
         background: rgba(45, 44, 44, 0.27058823529411763);
         left: 0;
         padding: 20px;
     }
-
-	/* Home Content */
+    /* Home Content */
     .steak-house-intro {
         float: none;
         width: 100%;
     }
-
     .steak-house-intro-image {
         position: relative;
         top: 0;
         width: 65%;
     }
-
-	/*Ear More Button*/
+    /*Ear More Button*/
     a.steak-house-home-view-more,
-	.steak-house-home-view-more {
+    .steak-house-home-view-more {
         top: 4.5%;
     }
-
-	/* Content with Right Sidebar Activated */
+    /* Content with Right Sidebar Activated */
     .content-area.with-sidebar {
         float: none;
         width: 100%;
     }
-
     .blog-content aside#secondary.widget-area {
         float: none;
         width: 100%;
     }
-
-	/* footer widget style css */
-
+    /* footer widget style css */
     .foot .container.cs-column-3,
-	.foot .container.cs-column-2,
-	.foot .container.cs-column-1 {
+    .foot .container.cs-column-2,
+    .foot .container.cs-column-1 {
         display: block;
         float: none;
         width: 100%;
@@ -1734,8 +1656,7 @@ section.menu-items {
 --------------------------------*/
 
 @media screen and (max-width: 600px) {
-
-/*Menu Page CSS for menu listing 2 in each row*/
+    /*Menu Page CSS for menu listing 2 in each row*/
     section.menu-items article {
         text-align: center;
         width: calc(100% - 22px);
@@ -1747,55 +1668,46 @@ section.menu-items {
 --------------------------------*/
 
 @media screen and (max-width: 480px) {
-
     .steak-house-full-width .menu-items article {
         width: 100%;
     }
-
-	/* Menu Image Homepage */
+    /* Menu Image Homepage */
     .home-menu-items-list .collection-menu-items {
         margin: 60px auto;
     }
-
     .steak-house-intro-image {
         display: none;
     }
-
-	/*Eat More Button*/
+    /*Eat More Button*/
     a.steak-house-home-view-more,
-	.steak-house-home-view-more {
+    .steak-house-home-view-more {
         border: 1px solid #b39673;
         color: #b39673;
         right: 50%;
         top: 98.8%;
         transform: translate(50%, 0);
         -ms-transform: translate(50%, 0%);
- /* IE 9 */
+        /* IE 9 */
         -webkit-transform: translate(50%, 0%);
- /* Safari */
+        /* Safari */
     }
-
-	/*404 page css*/
+    /*404 page css*/
     .not-found-content {
         padding: 0;
     }
-
     .not-found-content h1 {
         padding: 0;
     }
-
     .not-found-content h2 {
         text-align: left;
         font-size: 24px;
     }
-
     .not-found-content span {
         font-size: 35px;
     }
-
     .post {
         width: 100%;
- /* Blog Post Listing Page Media Query */
+        /* Blog Post Listing Page Media Query */
     }
 }
 
@@ -1807,7 +1719,6 @@ section.menu-items {
     .steak-house-full-width .menu-items article:first-of-type {
         margin-left: 0;
     }
-
     .menu-page .collection-menu-items {
         width: 100%;
     }

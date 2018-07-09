@@ -39,7 +39,7 @@ function wp_restaurant_main_content(){
   		?>
 	 	<div class="steak-house-body-wrapper">
 		 	<div class="steak-house-body-container">
-		 		<div class="steak-house-intro alignleft">
+		 		<div class="steak-house-intro alignleft <?php echo ( ! has_post_thumbnail( ) ) ? 'steak-full-content': '';?>">
 		 			<div class="title-section">			 			
 			 			<h2 class="main-title"><?php the_title();?></h2>
 		 			</div>
