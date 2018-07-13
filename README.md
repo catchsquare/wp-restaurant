@@ -165,4 +165,10 @@ The logo placement is a bit tricky. We recommend to use at max 275 x 275 px logo
 
 = 1.0.14 - 15 May 2018 =
 * Added Theme URI and Author URI
+
+= 1.0.16 - 01 July 2018 =
+* Home content showing full content when no featured image available
+
+= 1.0.17 - 13 July 2018 =
+* Front page showing full content
 ```
