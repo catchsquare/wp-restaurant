@@ -45,7 +45,7 @@ function wp_restaurant_main_content(){
 		 			</div>
 
 		 			<div class="steak-house-trim-about">						
-		 				<p><?php the_excerpt();?></p>
+		 				<?php the_content();?>
 						<?php if ( '' != $home_contact_reservation ): ?>
 						<div class="steak-house-banner-button">
 							<a href="<?php the_permalink( esc_url( $home_contact_reservation ) );?>" class="btn-transparent reservation_label"><?php echo esc_html( $home_contact_reservation_label );?></a>

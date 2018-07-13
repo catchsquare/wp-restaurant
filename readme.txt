@@ -140,5 +140,8 @@ The logo placement is a bit tricky. We recommend to use at max 275 x 275 px logo
 = 1.0.15 - 01 June 2018 =
 * Change Package name to WP Restaurant
 
-= 1.0.15 - 01 July 2018 =
+= 1.0.16 - 01 July 2018 =
 * Home content showing full content when no featured image available
+
+= 1.0.17 - 13 July 2018 =
+* Front page showing full content
