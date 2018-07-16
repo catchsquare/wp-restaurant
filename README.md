@@ -171,4 +171,7 @@ The logo placement is a bit tricky. We recommend to use at max 275 x 275 px logo
 
 = 1.0.17 - 13 July 2018 =
 * Front page showing full content
+
+= 1.0.18 - 16 July 2018 =
+* Button margin fixes
 ```
