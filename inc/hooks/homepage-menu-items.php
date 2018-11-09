@@ -61,6 +61,9 @@ if ( ! function_exists( 'wp_restaurant_menu_section') ) :
 			</div>
 			<div class="clear"></div>
 			<?php if( $link ):?>
+			<?php if( defined( 'POLYLANG_FILE' ) ) : ?>
+				<?php $link = pll_get_post( $link, pll_current_language() );?>
+			<?php endif;?>
 			<a href="<?php echo esc_url( get_permalink( $link ) ) ;?>" class="btn-transparent steak-house-home-view-more"><?php echo esc_html( $home_menu_view_more_label );?></a>
 			<div class="clear"></div>
 			<?php endif;?>

@@ -174,6 +174,10 @@ function wp_restaurant_get_menu_page_template_link() {
 		$page_id =  $page->ID;
 		break;
 	}
+	/* if polylang is activated */
+	if( defined( 'POLYLANG_FILE' ) ) {
+		$page_id = pll_get_post( $page_id, pll_current_language() );
+	}			
 	return $page_id;
 }
 /**

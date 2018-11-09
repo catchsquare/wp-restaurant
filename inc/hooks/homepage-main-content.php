@@ -47,6 +47,9 @@ function wp_restaurant_main_content(){
 		 			<div class="steak-house-trim-about">						
 		 				<?php the_content();?>
 						<?php if ( '' != $home_contact_reservation ): ?>
+						<?php if( defined( 'POLYLANG_FILE' ) ) : ?>
+							<?php $home_contact_reservation = pll_get_post( $home_contact_reservation, pll_current_language() );?>
+							<?php endif;?>
 						<div class="steak-house-banner-button">
 							<a href="<?php the_permalink( esc_url( $home_contact_reservation ) );?>" class="btn-transparent reservation_label"><?php echo esc_html( $home_contact_reservation_label );?></a>
 						</div>
