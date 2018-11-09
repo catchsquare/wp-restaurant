@@ -52,11 +52,11 @@ if ( ! function_exists( 'wp_restaurant_banner_content' ) ) :
 					
 					<div class="steak-house-banner-button">
 						<?php if ( '' != $home_contact_reservation ): ?>
-							<a href="<?php esc_url( get_the_permalink( $home_contact_reservation ) );?>" class="btn-fill reservation_label"><?php echo esc_html( $home_contact_reservation_label );?></a>
+							<a href="<?php echo esc_url( get_the_permalink( $home_contact_reservation ) );?>" class="btn-fill reservation_label"><?php echo esc_html( $home_contact_reservation_label );?></a>
 						<?php endif;?>
 
 						<?php if ( '' != $home_contact_page_id ): ?>
-							<a href="<?php esc_url( get_the_permalink( $home_contact_page_id ) );?>" class="btn-fill contact_us_label"><?php echo esc_html( $home_contact_us_label );?></a>
+							<a href="<?php echo esc_url( get_the_permalink( $home_contact_page_id ) );?>" class="btn-fill contact_us_label"><?php echo esc_html( $home_contact_us_label );?></a>
 						<?php endif;?>						
 					</div>
 				
