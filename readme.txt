@@ -148,3 +148,6 @@ The logo placement is a bit tricky. We recommend to use at max 275 x 275 px logo
 
 = 1.0.18 - 16 July 2018 =
 * Button margin fixes
+
+= 1.0.19 - 02 November 2018 =
+* Fixed missing displaying permalink of contact and reservation link in banner section ( front page )
